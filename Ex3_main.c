@@ -3,6 +3,8 @@
 #include "Aluno_Ex3.h"
 
 int main(){
-  Aluno*newAluno (RA, Nome);
+  Aluno*newAluno (121122, Pato Donald);
+  imprimeD(Pato Donald);
+  
 return 0;
 }
