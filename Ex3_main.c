@@ -1,8 +1,11 @@
+#include "Dados.h"
+#include "Dados.c"
+#ifndef DADOS_H
+#define DADOS_H
+#endif
 #include<stdio.h>
 #include "Aluno_Ex3.c"
 #include "Aluno_Ex3.h"
-#include "Dados.h"
-#include "Dados.c"
 int main(){
   Aluno *newAluno (123456, Pato Donald);
   Aluno *add(Pato Donald,80);
