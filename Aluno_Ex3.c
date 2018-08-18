@@ -1,7 +1,13 @@
 #include<stdio.h>
-#include "ex3.h"
-Aluno * newAluno(char * nome, int ra){}
-Aluno * AddNota(int maxnota){
+#include "Aluno_Ex3.h"
+Aluno * newAluno(char * nome, int ra){
   Aluno *aux = (Aluno*)malloc(sizeof(Aluno));
-  aux->nota=(int*)malloc(sizeof(int*(maxnota);
+  aux->nome=nome;
+  aux->ra=ra;
+  aux->notas=newDados(3);
   
+}
+Aluno * AddNota(Aluno *aux,int maxnota){
+  add(aux->notas, maxnota);
+  return aux;
+}
