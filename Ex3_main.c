@@ -16,7 +16,7 @@ int main(){
   Aluno *AddNota("Margarida",90);
   Aluno *AddNota("Margarida",100);
   immrime(Margarida);
-  imprimeD(Pato Donald);
+  imprime(Pato Donald);
   
 return 0;
 }
