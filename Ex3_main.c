@@ -13,9 +13,9 @@ int main(){
   Aluno *AddNota("Pato Donald",100);
   Aluno *newAluno (123333,"Margarida");
   Aluno *AddNota("Margarida",90);
-  Aluno *AddNota("Margarida,90);
+  Aluno *AddNota("Margarida",90);
   Aluno *AddNota("Margarida",100);
-  imorime(Margarida);
+  immrime(Margarida);
   imprimeD(Pato Donald);
   
 return 0;
