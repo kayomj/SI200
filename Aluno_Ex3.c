@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "Aluno_Ex3.h"
-Aluno * newAluno(char * nome, int ra){
+Aluno * newAluno(int ra, char * nome){
   Aluno *aux = (Aluno*)malloc(sizeof(Aluno));
   aux->nome=nome;
   aux->ra=ra;
