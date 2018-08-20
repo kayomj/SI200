@@ -1,5 +1,4 @@
-typedef struct Aluno{
-char nome[100];
-int ra;
+typedef struct Aluno;
 Dados * nota;
-}Aluno;
+Aluno * newAluno(int ra, char * nome);
+Aluno * AddNota(Aluno *aux,int maxnota);
