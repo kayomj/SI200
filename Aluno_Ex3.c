@@ -4,8 +4,8 @@ struct Aluno {
 char nome[100];
 int ra;
 };
-Aluno * newAluno(int ra, char * nome){
-  Aluno *aux = (Aluno*)malloc(sizeof(Aluno));
+Aluno* newAluno(int ra, char * nome){
+  Aluno* aux = (Aluno*)malloc(sizeof(Aluno));
   aux->nome=nome;
   aux->ra=ra;
   aux->notas=newDados(3);
