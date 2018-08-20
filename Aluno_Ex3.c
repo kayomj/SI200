@@ -6,9 +6,9 @@ int ra;
 };
 Aluno * newAluno(int ra, char * nome){
   Aluno *aux = (Aluno*)malloc(sizeof(Aluno));
-  aux->Aluno.nome=nome;
-  aux->Aluno.ra=ra;
-  aux->Aluno.notas=newDados(3);
+  aux->nome=Alunonome;
+  aux->ra=Aluno.ra;
+  aux->notas=Aluno.newDados(3);
   
 }
 Aluno * AddNota(Aluno *aux,int maxnota){
