@@ -1,8 +1,5 @@
 #include "Dados.h"
 #include "Dados.c"
-#ifndef DADOS_H
-#define DADOS_H
-#endif
 #include<stdio.h>
 #include "Aluno_Ex3.c"
 #include "Aluno_Ex3.h"
@@ -14,9 +11,6 @@ int main(){
   Aluno *newAluno (123333,"Margarida");
   Aluno *AddNota("Margarida",90);
   Aluno *AddNota("Margarida",90);
-  Aluno *AddNota("Margarida",100);
-  immrime(Margarida);
-  imprime(Pato Donald);
-  
+  Aluno *AddNota("Margarida",100);  
 return 0;
 }
