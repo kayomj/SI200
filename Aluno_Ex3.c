@@ -6,8 +6,8 @@ int ra;
 };
 Aluno* newAluno(int ra, char * nome){
   Aluno* aux = (Aluno*)malloc(sizeof(Aluno));
-  aux->nome=nome;
   aux->ra=ra;
+  aux->nome=nome;
   aux->notas=newDados(3);
   
 }
