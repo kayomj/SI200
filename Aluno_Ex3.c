@@ -1,10 +1,5 @@
 #include<stdio.h>
 #include "Aluno_Ex3.h"
-struct Aluno {
-char nome[100];
-int ra;
-int notas;
-};
 Aluno* newAluno(int ra, char * nome[100]){
   Aluno* aux = (Aluno*)malloc(sizeof(Aluno));
   aux->ra=ra;
