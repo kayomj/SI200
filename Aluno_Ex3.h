@@ -1,5 +1,6 @@
 #ifndef ALUNO_H
 #define ALUNO_H
+#include "Dados.h"
 
 typedef struct Aluno {
 char nome[100];
