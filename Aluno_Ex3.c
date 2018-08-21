@@ -3,6 +3,7 @@
 struct Aluno {
 char nome[100];
 int ra;
+int notas;
 };
 Aluno* newAluno(int ra, char * nome){
   Aluno* aux = (Aluno*)malloc(sizeof(Aluno));
