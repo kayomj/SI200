@@ -7,7 +7,7 @@ Aluno* newAluno(int ra, char * nome[100]){
   aux->notas=newDados(3);
   
 }
-Aluno * AddNota(Aluno *aux,int maxnota){
+Aluno* AddNota(Aluno *aux,int maxnota){
   add(aux->Aluno.notas, maxnota);
   return aux;
 }
