@@ -8,8 +8,8 @@ int ra;
 int notas;
 Dados * nota;
 }Aluno;
-void newAluno(int ra, char * nome[100]);
-void AddNota(Aluno *aux,int maxnota);
+void newAluno(int ra, char * nome);
+void AddNota(Aluno *aux, int maxnota);
 void ImprimeAluno(Aluno *a);
 
 #endif
