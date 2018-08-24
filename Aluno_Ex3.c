@@ -1,13 +1,18 @@
 #include<stdio.h>
+#include<string.h>
 #include "Aluno_Ex3.h"
+#include "Dados.h"
 Aluno* newAluno(int ra, char * nome){
   Aluno* aux = (Aluno*)malloc(sizeof(Aluno));
   aux->ra=ra;
-  aux->nome=nome;
-  aux->notas=newDados(100);
-  
+  strcpy(aux->nome,nome);
+  aux->nota=newDados(100);
+
 }
-Aluno* AddNota(Aluno *aux,int maxnota){
-  add(aux->Aluno.notas, maxnota);
-  return aux;
+void AddNota(Aluno *aux,int maxnota){
+  add(aux->nota, maxnota);
+}
+void ImprimeAluno(Aluno *aux){
+  printf("%s\n %d\n",aux->nome,aux->ra);
+  imprimeD(aux->nota);
 }
